@@ -25,7 +25,7 @@
 	<div class="m-7 grid grid-cols-1 gap-7 p-1 md:grid-cols-2 lg:grid-cols-3">
 		{#each data.projects as project}
 			<div
-				class="bg-ctp-surface1 hover:bg-ctp-surface2 rounded-[.75rem] p-3 text-center transition-colors outline-none hover:outline-solid outline-5 outline-offset-2 outline-ctp-subtext1"
+				class=" transition-all bg-ctp-surface1 hover:bg-ctp-surface2 rounded-[.75rem] p-3 text-center duration-250 outline-none hover:outline-solid outline-5 outline-offset-0 outline-ctp-subtext1"
 			>
 				<h2 class="text-ctp-text mb-2 text-[2rem] font-bold">
 					{project.name}

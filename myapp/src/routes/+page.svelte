@@ -13,4 +13,7 @@
 	<p class="text-ctp-subtext1 px-5 py-3 text-[3rem] font-semibold">
 		{newWord()} Software Developer
 	</p>
+	<p class="text-ctp-subtext1 px-10 text-[1.5rem]">
+		Click the buttons on top to learn more!
+	</p>
 </div>

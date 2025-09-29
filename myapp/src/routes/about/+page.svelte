@@ -2,13 +2,12 @@
 	<h1 class="text-ctp-text text-[3.5rem] font-bold">Hello, I'm Adrian</h1>
 	<br />
 	<div class="text-[1.5rem]">
-		<p>I'm a Teen from Wisconsin, who's into programming and Computer Science as a whole</p>
+		<p>I'm a Teen from Wisconsin, who's passionate about programming and Computer Science</p>
 
 		<br />
 
 		<p>
-			I mainly use Rust, Python, HTML/CSS, and Godot, and am working on learning Svelte and
-			Tailwind CSS (Which this site was created in).
+			I mainly use Rust, Python, HTML/CSS, and Typescript, and am working on learning Svelte and Tailwind CSS (Which this site was created in).
 		</p>
 		<br />
 

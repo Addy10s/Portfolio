@@ -28,7 +28,7 @@
 	<h1
 		class="text-bold text-ctp-text m-1 flex w-full flex-nowrap justify-center text-center text-[3rem]"
 	>
-		If you want to contact me, I'm active on the following platforms:
+		If you want to find me, I'm somewhat active on these accounts:
 	</h1>
 
 	<div bind:this={container} class="flex flex-wrap items-center justify-center text-center">
