@@ -7,7 +7,8 @@
 		<br />
 
 		<p>
-			I mainly use Rust, Python, HTML/CSS, and Typescript, and am working on learning Svelte and Tailwind CSS (Which this site was created in).
+			I mainly use Rust, Python, HTML/CSS, and Typescript, and am working on learning Svelte and
+			Tailwind CSS (Which this site was created in).
 		</p>
 		<br />
 
