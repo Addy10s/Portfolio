@@ -13,6 +13,11 @@
 	 */
 </script>
 
+<svelte:head>
+	<title>Adrian's Projects</title>
+	<meta name="Projects" content="These are the projects that I (Adrian Tennies), have created" />
+</svelte:head>
+
 <h1 class="text-ctp-text mt-7 text-center text-[3rem] font-semibold">My Projects</h1>
 
 {#if data.error}
@@ -31,7 +36,9 @@
 					{project.name}
 				</h2>
 
-				<p class="text-ctp-subtext0 mb-4 text-[1.2rem] font-semibold">
+				<p
+					class="text-ctp-subtext0 mb-4 line-clamp-4 text-[1.2rem] font-semibold hover:line-clamp-none"
+				>
 					{project.description}
 				</p>
 

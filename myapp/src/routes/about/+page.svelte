@@ -1,3 +1,10 @@
+
+<svelte:head>
+	<title>About Adrian!</title>
+	<meta name="About Adrian!" content="This is the about me section of my portfolio" />
+</svelte:head>
+
+<h1>{Date.now()}</h1>
 <div class="text-ctp-subtext0 m-25">
 	<h1 class="text-ctp-text text-[3.5rem] font-bold">Hello, I'm Adrian</h1>
 	<br />

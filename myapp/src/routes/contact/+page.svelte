@@ -1,9 +1,4 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
-	//  import type { ActionData } from './$types';
-
-	// let { form }: { form: ActionData } = $props();
-
 	import { onMount } from 'svelte';
 	let container: HTMLDivElement;
 
@@ -23,7 +18,14 @@
 	});
 </script>
 
-<form></form>
+<svelte:head>
+	<title>Contact Adrian!</title>
+	<meta
+		name="Contact Adrian!"
+		content="This is where people can find contact information for Adrian Tennies"
+	/>
+</svelte:head>
+
 <div>
 	<h1
 		class="text-bold text-ctp-text m-1 flex w-full flex-nowrap justify-center text-center text-[3rem]"
@@ -36,26 +38,27 @@
 			<div class="text-left text-[4rem]">
 				<a href="https://bsky.app/profile/thesillyb0y.bsky.social" target="_blank">
 					<i class="fa-brands fa-bluesky px-4"> </i>
-					@thesillyb0y.bsky.social
+					thesillyb0y.bsky.social
 				</a>
 				<br />
 
 				<a href="https://github.com/thesillyboi" target="_blank">
 					<i class="fa-brands fa-github px-4"> </i>
-					@TheSillyBoi
+					TheSillyBoi
 				</a>
 				<br />
 
-				<a href="https://www.reddit.com/user/MisterMonkeee/" target="_blank">
-					<i class="fa-brands fa-reddit px-4"> </i>
-					@TheSillyBoi
+				<a href="mailto:adrian@tennies.us" target="_blank">
+					<i class="fa-solid fa-envelope px-4"></i>
+					Adrian@tennies.us
 				</a>
 				<br />
 
 				<a href="https://steamcommunity.com/profiles/76561199097336926/" target="_blank">
 					<i class="fa-brands fa-steam px-4"> </i>
-					@TheMonkeyBoi
+					TheMonkeyBoi
 				</a>
+
 				<br />
 			</div>
 		</div>

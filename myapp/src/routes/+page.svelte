@@ -7,6 +7,11 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Adrian's Portfolio!</title>
+	<meta name="Adrian's Portfolio!" content="This is the main section of my portfolio!" />
+</svelte:head>
+
 <div class="px-25 py-15">
 	<h1 class="text-ctp-text text-[6rem] font-bold">Adrian Tennies</h1>
 
