@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 export const content = ['./src/**/*.{html,js,svelte,ts}'];
 export const theme = {
 	extend: {}

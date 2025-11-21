@@ -44,7 +44,7 @@
 			<!-- svelte-ignore event_directive_deprecated -->
 			<button
 				on:click={() => (modalStates[index] = true)}
-				class="bg-ctp-surface1 size-fit max-w-[56rem] min-w-[56rem] cursor-pointer rounded-lg p-2 outline-0 outline-offset-0 transition-all duration-250 hover:outline-4"
+				class="bg-ctp-surface1 size-fit max-w-4xl min-w-4xl cursor-pointer rounded-lg p-2 outline-0 outline-offset-0 transition-all duration-250 hover:outline-4"
 			>
 				{#if entry?.Title}
 					<h1 class="text-[1.25rem] font-bold">{entry.Title}({entry.PublishedDate})</h1>
