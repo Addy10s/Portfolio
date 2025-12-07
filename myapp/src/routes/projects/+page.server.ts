@@ -14,7 +14,7 @@ interface GitHubRepo {
 export async function load({ fetch }) {
 	try {
 		const response = await fetch(
-			'https://api.github.com/users/thesillyboi/repos?sort=updated&per_page=100'
+			'https://api.github.com/users/addy10s/repos?sort=updated&per_page=100'
 		);
 		if (!response.ok) {
 			throw new Error(`GitHub API error: ${response.status}`);

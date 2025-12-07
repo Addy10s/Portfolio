@@ -25,7 +25,7 @@
 
 	onMount(async () => {
 		const response = await fetch(
-			'https://raw.githubusercontent.com/TheSillyBoi/Portfolio/refs/heads/main/myapp/src/routes/blog/blog.json'
+			'https://raw.githubusercontent.com/addy10s/Portfolio/refs/heads/main/myapp/src/routes/blog/blog.json'
 		);
 		data = await response.json();
 		console.log(data);
@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-	<title>Adrian's Blog!</title>
+	<title>Addy's Blog!</title>
 	<meta name="Blog" content="This is my blog :3" />
 </svelte:head>
 

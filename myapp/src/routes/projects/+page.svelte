@@ -30,14 +30,14 @@
 	<div class="m-7 grid grid-cols-1 gap-7 p-1 md:grid-cols-2 lg:grid-cols-3">
 		{#each data.projects as project}
 			<div
-				class=" bg-ctp-surface1 hover:bg-ctp-surface2 outline-ctp-subtext1 rounded-xl p-3 text-center outline-5 outline-offset-0 transition-all duration-250 outline-none hover:outline-solid group"
+				class=" bg-ctp-surface1 hover:bg-ctp-surface2 outline-ctp-subtext1 group rounded-xl p-3 text-center outline-5 outline-offset-0 transition-all duration-250 outline-none hover:outline-solid"
 			>
 				<h2 class="text-ctp-text mb-2 text-[2rem] font-bold">
 					{project.name}
 				</h2>
 
 				<p
-					class="text-ctp-subtext0 mb-4 line-clamp-4 text-[1.2rem] font-semibold group-hover:line-clamp-none"
+					class="text-ctp-subtext0 mb-4 line-clamp-4 text-[1.2rem] font-semibold transition-all duration-1150 group-hover:line-clamp-none"
 				>
 					{project.description}
 				</p>
