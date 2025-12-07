@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/thesillyboi/Portfolio">
+  <a href="https://github.com/Addy10s/Portfolio">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
@@ -68,7 +68,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 ## Getting Started
 
-This is just my portfolio, [This is the link](https://adriantennies.vercel.app), and here's the build instructions, if you want to run the website yourself for some reason below.
+This is just my portfolio, [This is the link](https://addy10s.xyz), and here's the build instructions, if you want to run the website yourself for some reason below.
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ This is an example of how to list things you need to use the software and how to
   I don't know why you would want to self-host my Portfolio, but here ya go if you really want to
 1. Clone the repo
    ```sh
-   git clone https://github.com/thesillyboi/Portfolio.git
+   git clone https://github.com/Addy10s/Portfolio.git
     cd Portfolio/myapp
     ```
 
@@ -112,7 +112,7 @@ This is an example of how to list things you need to use the software and how to
 - trying to add more coloring and a light theme
 
 
-See the [open issues](https://github.com/thesillyboi/Portfolio/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Addy10s/Portfolio/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +135,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/thesillyboi/Portfolio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=thesillyboi/Portfolio" alt="contrib.rocks image" />
+<a href="https://github.com/Addy10s/Portfolio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Addy10s/Portfolio" alt="contrib.rocks image" />
 </a>
 
 <!-- LICENSE -->
@@ -153,7 +153,7 @@ Distributed under the MIT license. See `LICENSE.txt` for more information.
 
 Adrian Tennies - adrian@tennies.us
 
-Project Link: [https://github.com/thesillyboi/Portfolio](https://github.com/thesillyboi/Portfolio)
+Project Link: [https://github.com/Addy10s/Portfolio](https://github.com/Addy10s/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,15 +170,15 @@ Project Link: [https://github.com/thesillyboi/Portfolio](https://github.com/thes
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/thesillyboi/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
-[contributors-url]: https://github.com/thesillyboi/Portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/thesillyboi/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
-[forks-url]: https://github.com/thesillyboi/Portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/thesillyboi/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
-[stars-url]: https://github.com/thesillyboi/Portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/thesillyboi/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
-[issues-url]: https://github.com/thesillyboi/Portfolio/issues
-[license-shield]: https://img.shields.io/github/license/thesillyboi/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
-[license-url]: https://github.com/thesillyboi/Portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Addy10s/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
+[contributors-url]: https://github.com/Addy10s/Portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Addy10s/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
+[forks-url]: https://github.com/Addy10s/Portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/Addy10s/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
+[stars-url]: https://github.com/Addy10s/Portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Addy10s/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
+[issues-url]: https://github.com/Addy10s/Portfolio/issues
+[license-shield]: https://img.shields.io/github/license/Addy10s/Portfolio.svg?style=for-the-badge&labelColor=313244&color=cba6f7
+[license-url]: https://github.com/Addy10s/Portfolio/blob/master/LICENSE.txt
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/

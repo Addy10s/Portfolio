@@ -25,7 +25,7 @@
 
 	onMount(async () => {
 		const response = await fetch(
-			'https://raw.githubusercontent.com/TheSillyBoi/Portfolio/refs/heads/main/myapp/src/routes/blog/blog.json'
+			'https://raw.githubusercontent.com/Addy10s/Portfolio/refs/heads/main/myapp/src/routes/blog/blog.json'
 		);
 		data = await response.json();
 		console.log(data);
