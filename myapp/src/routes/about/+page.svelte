@@ -56,4 +56,8 @@
 
 		<p>I love experimenting with Linux and similar systems, and use Fedora on my main machine.</p>
 	</div>
+	<a href="https://Addy10s.xyz" target="_blank" rel="noopener noreferrer">
+	    <img src="/src/routes/about/addy88x31.png" alt="This is my 88x31">
+		</a>
+
 </div>
