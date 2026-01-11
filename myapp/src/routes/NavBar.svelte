@@ -3,7 +3,7 @@
 	class="bg-ctp-surface1 from-ctp-surface1 to-ctp-base bg-linear-to-b from-80% p-[1%]"
 >
 	<div class="text-ctp-subtext1 flex w-full items-center justify-between px-0 text-[1.75rem]">
-		<a href="/" class="text-ctp-text text-[2rem] font-semibold">Addy/Adrian Tennies</a>
+		<a href="/" class="text-ctp-text text-[2rem] font-semibold">Addy Tennies</a>
 		<div class="space-x-4">
 			<a
 				href="/"

@@ -22,7 +22,7 @@
 	<title>Contact Addy!</title>
 	<meta
 		name="Contact Addy!"
-		content="This is where people can find contact information for Addy/Adrian Tennies"
+		content="This is where people can find contact information for Addy Tennies"
 	/>
 </svelte:head>
 

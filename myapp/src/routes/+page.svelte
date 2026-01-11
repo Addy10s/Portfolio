@@ -24,7 +24,7 @@
 <!-- <div class="px-25 py-15" onmousemove={updateDisplay} > -->
 <div class="px-25 py-15">
 
-	<h1 class="text-ctp-text text-[6rem] font-bold">Addy/Adrian Tennies</h1>
+	<h1 class="text-ctp-text text-[6rem] font-bold">Addy Tennies</h1>
 
 	<p class="text-ctp-subtext1 px-5 py-3 text-[3rem] font-semibold">
 		{newWord()} Software Developer

@@ -14,8 +14,8 @@
 </script>
 
 <svelte:head>
-	<title>Adrian's Projects</title>
-	<meta name="Projects" content="These are the projects that I (Adrian Tennies), have created" />
+	<title>Addy's Projects</title>
+	<meta name="Projects" content="These are the projects that I (Addy Tennies), have created" />
 </svelte:head>
 
 <h1 class="text-ctp-text mt-7 text-center text-[3rem] font-semibold">My Projects</h1>
