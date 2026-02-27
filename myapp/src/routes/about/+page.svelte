@@ -59,7 +59,7 @@
 
 
 	<a href="https://Addy10s.xyz" target="_blank" rel="noopener noreferrer">
-	    <img src="/addy88x31.png" alt="This is my 88x31">
+	    <img src="/addy88x31.gif" alt="This is my 88x31">
 		</a>
 
 </div>
