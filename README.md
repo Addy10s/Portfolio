@@ -151,7 +151,7 @@ Distributed under the MIT license. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Addy/Adrian Tennies - adrian@tennies.us
+Addy Tennies - addy@tennies.us
 
 Project Link: [https://github.com/addy10s/Portfolio](https://github.com/addy10s/Portfolio)
 

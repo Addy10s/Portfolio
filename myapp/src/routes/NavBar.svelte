@@ -10,5 +10,5 @@
 
 	<a href="/blog" class="collapse group-hover:visible"><b> Blog </b></a>
 	<a href="/about" class="collapse group-hover:visible"><b> About </b></a>
-	<a href="/contact" class="collapse group-hover:visible"><b> Contact </b></a>
+	<a href="/88x31" class="collapse group-hover:visible"><b> 88x31s </b></a>
 </nav>
