@@ -15,22 +15,25 @@
 
 <svelte:head>
 	<title>Addy's Projects</title>
-	<meta name="Projects" content="These are the projects that I (Addy Tennies), have created" />
+	<meta
+		name="Projects"
+		content="These are the projects that I (Addy Tennies), have created! You should check them out 🥺"
+	/>
 </svelte:head>
-
-<h1 class="text-ctp-text mt-7 text-center text-[3rem] font-semibold">My Projects</h1>
-
+<div class="flex justify-center items-center pointer-events-none">
+	<h1 class="text-ctp-text mt-7 text-center text-[4rem] font-bold size-fit pointer-events-auto">My Projects</h1>
+</div>
 {#if data.error}
 	<div class="text-ctp-red text-center text-xl">
 		{data.error}
 	</div>
 {:else if data.projects.length === 0}
-	<div class="text-ctp-subtext1 text-center text-xl">No projects found</div>
+	<div class="text-ctp-subtext1 text-center text-xl">Error Finding Projects</div>
 {:else}
-	<div class="m-7 grid grid-cols-1 gap-7 p-1 md:grid-cols-2 lg:grid-cols-3">
+	<div class="m-7 grid grid-cols-1 gap-[1vw] p-1 md:grid-cols-2 lg:grid-cols-3 pointer-events-none">
 		{#each data.projects as project}
 			<div
-				class=" bg-ctp-surface1 hover:bg-ctp-surface2 outline-ctp-subtext1 group rounded-xl p-3 text-center outline-5 outline-offset-0 transition-all duration-250 outline-none hover:outline-solid"
+				class=" bg-ctp-surface1 hover:bg-ctp-surface2 outline-ctp-subtext1 group rounded-2xl p-3 text-center outline-5 outline-offset-0 transition-all duration-250 outline-none hover:shadow-2xl pointer-events-auto"
 			>
 				<h2 class="text-ctp-text mb-2 text-[2rem] font-bold">
 					{project.name}

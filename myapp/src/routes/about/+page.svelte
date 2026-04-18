@@ -38,12 +38,13 @@
 	<meta name="About Addy!" content="This is the about me section of my portfolio" />
 </svelte:head>
 
-<div class="text-ctp-subtext0 m-25">
-	<h1 class="text-ctp-text text-[3.5rem] font-bold">Hello, I'm Addy</h1>
+<div class="text-ctp-subtext0 m-25 pointer-events-none ">
+	<h1 class="text-ctp-text text-[3.5rem] font-bold pointer-events-auto size-fit">Hello, I'm Addy</h1>
 	<!-- <h1></h1> -->
-	<div class="text-[1.5rem]">
+	<div class="text-[1.5rem] pointer-events-none *:pointer-events-auto *:bg-ctp-base *:size-fit">
 		<p>
-			I'm a Teen from Wisconsin, who's passionate about programming and Computer Science, I'm approximately {age} old.
+			I'm a Teen from Wisconsin, who's passionate about programming and Computer Science, I'm
+			approximately {age} old.
 		</p>
 
 		<br />
@@ -55,11 +56,9 @@
 		<br />
 
 		<p>I love experimenting with Linux and similar systems, and use Fedora on my main machine.</p>
-</div>
-
+	</div>
 
 	<a href="https://Addy10s.xyz" target="_blank" rel="noopener noreferrer">
-	    <img src="/addy88x31.gif" alt="This is my 88x31">
-		</a>
-
+		<img src="/addy88x31.gif" alt="This is my 88x31" class="size-fit pointer-events-auto" />
+	</a>
 </div>

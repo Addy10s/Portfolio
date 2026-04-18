@@ -26,15 +26,15 @@
 	/>
 </svelte:head>
 
-<div>
+<div class="pointer-events-none justify-center items-center flex text-center grow-0 flex-col">
 	<h1
-		class="text-bold text-ctp-text m-1 flex w-full flex-nowrap justify-center text-center text-[3rem]"
+		class=" inline-flex text-bold text-ctp-text m-1  flex-nowrap justify-center text-center text-[3rem] pointer-events-auto size-fit"
 	>
-		If you want to find me, I'm somewhat active on these accounts:
+		If you want to find me, I'm the most active on these accounts:
 	</h1>
 
-	<div bind:this={container} class="flex flex-wrap items-center justify-center text-center">
-		<div class=" bg-ctp-surface1 text-ctp-sky rounded-xl px-6 py-3 text-center">
+	<div bind:this={container} class="inline-flex flex-wrap items-center justify-center text-center">
+		<div class=" pointer-events-auto bg-ctp-surface1 text-ctp-sky rounded-xl px-6 py-3 text-center *:backdrop-blur-xl">
 			<div class="text-left text-[4rem]">
 				<a href="https://bsky.app/profile/addy10s.xyz" target="_blank">
 					<i class="fa-brands fa-bluesky px-4"> </i>

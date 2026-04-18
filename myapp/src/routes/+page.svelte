@@ -22,8 +22,7 @@
 
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <!-- <div class="px-25 py-15" onmousemove={updateDisplay} > -->
-<div class="px-25 py-15">
-
+<div class="px-25 py-15 pointer-events-none *:pointer-events-auto *:size-fit">
 	<h1 class="text-ctp-text text-[6rem] font-bold">Addy Tennies</h1>
 
 	<p class="text-ctp-subtext1 px-5 py-3 text-[3rem] font-semibold">

@@ -1,39 +1,14 @@
 <nav
 	id="global-navbar"
-	class="bg-ctp-surface1 from-ctp-surface1 to-ctp-base bg-linear-to-b from-80% p-[1%]"
+	class="group bg-ctp-surface1 text-ctp-subtext1 *:hover:text-shadow-xl/60 *:text-shadow-ctp-base z-100 mx-auto table content-center space-x-1 rounded-[3rem] px-2 py-1 text-center text-[3.5rem] shadow-2xl *:rounded-md *:px-3 *:py-1 *:align-middle *:transition *:delay-15 *:duration-600"
 >
-	<div class="text-ctp-subtext1 flex w-full items-center justify-between px-0 text-[1.75rem]">
-		<a href="/" class="text-ctp-text text-[2rem] font-semibold">Addy Tennies</a>
-		<div class="space-x-4">
-			<a
-				href="/"
-				class=" hover:bg-ctp-surface0 rounded-md px-3 py-1 transition delay-15 duration-600 ease-in-out"
-				><b> Home </b></a
-			>
+	<a href="/" class="group text-ctp-text align-middle text-[6rem] font-black">
+		<b> Addy Tennies </b></a
+	>
 
-			<a
-				href="/projects"
-				class=" hover:bg-ctp-surface0 rounded-md px-3 py-1 transition delay-15 duration-600 ease-in-out"
-				><b> My Projects </b></a
-			>
+	<a href="/projects" class="collapse group-hover:visible"><b> My Projects </b></a>
 
-			<a
-				href="/blog"
-				class=" hover:bg-ctp-surface0 rounded-md px-3 py-1 transition delay-15 duration-600 ease-in-out"
-				><b> Blog </b></a
-			>
-
-			<a
-				href="/about"
-				class=" hover:bg-ctp-surface0 rounded-md px-3 py-1 transition delay-15 duration-600 ease-in-out"
-				><b> About </b></a
-			>
-
-			<a
-				href="/contact"
-				class=" hover:bg-ctp-surface0 rounded-md px-3 py-1 transition delay-15 duration-600 ease-in-out"
-				><b> Contact </b></a
-			>
-		</div>
-	</div>
+	<a href="/blog" class="collapse group-hover:visible"><b> Blog </b></a>
+	<a href="/about" class="collapse group-hover:visible"><b> About </b></a>
+	<a href="/contact" class="collapse group-hover:visible"><b> Contact </b></a>
 </nav>
