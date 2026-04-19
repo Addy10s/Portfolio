@@ -22,4 +22,8 @@
 		Click the buttons on top to learn more!
 	</p>
 
+	<p class="collapse lg:pointer-fine:visible text-ctp-subtext1 px-15 text-[1vw]">
+		Hover over the top bar to see the buttons
+	</p>
+
 </div>
