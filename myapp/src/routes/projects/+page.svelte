@@ -20,8 +20,10 @@
 		content="These are the projects that I (Addy Tennies), have created! You should check them out 🥺"
 	/>
 </svelte:head>
-<div class="flex justify-center items-center pointer-events-none">
-	<h1 class="text-ctp-text mt-7 text-center text-[4rem] font-bold size-fit pointer-events-auto">My Projects</h1>
+<div class="pointer-events-none flex items-center justify-center">
+	<h1 class="text-ctp-text pointer-events-auto mt-7 size-fit text-center text-[4rem] font-bold">
+		My Projects
+	</h1>
 </div>
 {#if data.error}
 	<div class="text-ctp-red text-center text-xl">
@@ -30,10 +32,10 @@
 {:else if data.projects.length === 0}
 	<div class="text-ctp-subtext1 text-center text-xl">Error Finding Projects</div>
 {:else}
-	<div class="m-7 grid grid-cols-1 gap-[1vw] p-1 md:grid-cols-2 lg:grid-cols-3 pointer-events-none">
+	<div class="pointer-events-none m-7 grid grid-cols-1 gap-[1vw] p-1 md:grid-cols-2 lg:grid-cols-3">
 		{#each data.projects as project}
 			<div
-				class=" bg-ctp-surface1 hover:bg-ctp-surface2 outline-ctp-subtext1 group rounded-2xl p-3 text-center outline-5 outline-offset-0 transition-all duration-250 outline-none hover:shadow-2xl pointer-events-auto"
+				class=" bg-ctp-surface1 hover:bg-ctp-surface2 outline-ctp-subtext1 group pointer-events-auto rounded-2xl p-3 text-center outline-5 outline-offset-0 transition-all duration-250 outline-none hover:shadow-2xl"
 			>
 				<h2 class="text-ctp-text mb-2 text-[2rem] font-bold">
 					{project.name}

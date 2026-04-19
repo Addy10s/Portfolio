@@ -5,14 +5,6 @@
 		let chosenWord = possibleWords[chosenWordArray];
 		return chosenWord;
 	}
-
-	// let x = $state(0);
-	// let y = $state(0);
-
-	// function updateDisplay(event: { pageX: number; pageY: number }) {
-	// 	x = event.pageX;
-	// 	y = event.pageY;
-	// }
 </script>
 
 <svelte:head>
@@ -20,17 +12,14 @@
 	<meta name="Addy's Portfolio!" content="This is the main section of my portfolio!" />
 </svelte:head>
 
-<!-- svelte-ignore a11y_no_static_element_interactions -->
-<!-- <div class="px-25 py-15" onmousemove={updateDisplay} > -->
-<div class="px-25 py-15 pointer-events-none *:pointer-events-auto *:size-fit">
-	<h1 class="text-ctp-text text-[6rem] font-bold">Addy Tennies</h1>
+<div class="pointer-events-none px-20 py-10 *:pointer-events-auto *:size-fit lg:px-25 lg:py-15">
+	<h1 class="text-ctp-text text-[9vw] font-bold text-nowrap lg:text-[5vw]">Addy Tennies</h1>
 
-	<p class="text-ctp-subtext1 px-5 py-3 text-[3rem] font-semibold">
+	<p class="text-ctp-subtext1 px-5 py-3 text-[4vw] font-semibold lg:text-[2.5vw]">
 		{newWord()} Software Developer
 	</p>
-	<p class="text-ctp-subtext1 px-10 text-[1.5rem]">Click the buttons on top to learn more!</p>
-	<!-- <p class="text-ctp-subtext1 px-10 text-[1.5rem]">
-		Mouse Position: X: {x}
-		Y: {y} 
-	</p> -->
+	<p class="text-ctp-subtext1 px-10 text-[3.5vw] text-nowrap lg:text-[1.5vw]">
+		Click the buttons on top to learn more!
+	</p>
+
 </div>

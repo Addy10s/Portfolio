@@ -6,25 +6,17 @@
 	import Scene from './Scene.svelte';
 </script>
 
-
 <div class="ui">
 	<NavBar />
 
-
-
-	
 	<div class="bg-container">
 		<Canvas>
 			<Scene />
 		</Canvas>
 	</div>
-	
-	
-	{@render children()}
-	
-</div>
-	
 
+	{@render children()}
+</div>
 
 <style>
 	.bg-container {

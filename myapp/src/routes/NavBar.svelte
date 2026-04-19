@@ -1,14 +1,37 @@
+<script lang="ts">
+import { resolve } from '$app/paths';
+</script>
 <nav
 	id="global-navbar"
-	class="group bg-ctp-surface1 text-ctp-subtext1 *:hover:text-shadow-xl/60 *:text-shadow-ctp-base z-100 mx-auto table content-center space-x-1 rounded-[3rem] px-2 py-1 text-center text-[3.5rem] shadow-2xl *:rounded-md *:px-3 *:py-1 *:align-middle *:transition *:delay-15 *:duration-600"
+	class="group bg-ctp-surface1 text-ctp-subtext1 *:text-shadow-ctp-base z-100 mx-auto table content-center space-x-0 rounded-xl px-2 py-1 text-center text-[4vw] shadow-2xl *:rounded-md *:px-3 *:py-1 *:align-middle lg:rounded-[3rem] lg:text-[3.5rem]"
 >
-	<a href="/" class="group text-ctp-text align-middle text-[6rem] font-black">
+	<a
+		href={resolve("/")}
+		class="group text-ctp-text align-middle text-[5vw] font-black text-nowrap lg:text-[6rem]"
+	>
 		<b> Addy Tennies </b></a
 	>
+	<br class="pointer-fine:lg:hidden" />
 
-	<a href="/projects" class="collapse group-hover:visible"><b> My Projects </b></a>
+	<a
+		href={resolve("/projects")}
+		class=" text-nowrap opacity-100 transition-opacity duration-300 ease-out pointer-fine:lg:opacity-0 pointer-fine:lg:group-hover:opacity-100"
+		><b> My Projects </b></a
+	>
 
-	<a href="/blog" class="collapse group-hover:visible"><b> Blog </b></a>
-	<a href="/about" class="collapse group-hover:visible"><b> About </b></a>
-	<a href="/88x31" class="collapse group-hover:visible"><b> 88x31s </b></a>
+	<a
+		href={resolve("/blog")}
+		class="transition-opacity duration-300 ease-out group-hover:opacity-100 pointer-fine:lg:opacity-0"
+		><b> Blog </b></a
+	>
+	<a
+		href={resolve("/about")}
+		class="transition-opacity duration-300 ease-out group-hover:opacity-100 pointer-fine:lg:opacity-0"
+		><b> About </b></a
+	>
+	<a
+		href={resolve("/88x31")}
+		class="transition-opacity duration-300 ease-out group-hover:opacity-100 pointer-fine:lg:opacity-0"
+		><b> 88x31s </b></a
+	>
 </nav>
